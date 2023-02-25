@@ -12,7 +12,7 @@ cd ./wlroots
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p wlroots_0.16
+LOGNAME=root dh_make --createorig -y -l -p wlroots_0.16.1
 dpkg-buildpackage
 
 # Move the debs to output
