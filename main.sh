@@ -4,9 +4,6 @@ add-apt-repository https://ppa.pika-os.com
 add-apt-repository ppa:pikaos/pika
 add-apt-repository ppa:kubuntu-ppa/backports
 
-apt-get clean
-apt-get update
-
 # Clone Upstream
 git clone https://gitlab.freedesktop.org/wlroots/wlroots -b 0.16
 cp -rvf ./debian ./wlroots
