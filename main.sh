@@ -5,7 +5,7 @@ add-apt-repository ppa:pikaos/pika
 add-apt-repository ppa:kubuntu-ppa/backports
 
 # Clone Upstream
-git clone https://gitlab.freedesktop.org/wlroots/wlroots -b 0.16
+git clone https://gitlab.freedesktop.org/wlroots/wlroots -b 0.16.2
 cp -rvf ./debian ./wlroots
 cd ./wlroots
 
@@ -13,7 +13,7 @@ cd ./wlroots
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p wlroots_0.16.1
+LOGNAME=root dh_make --createorig -y -l -p wlroots_0.16.2
 dpkg-buildpackage
 
 # Move the debs to output
