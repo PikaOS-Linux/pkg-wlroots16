@@ -33,6 +33,8 @@ Build-Depends:
  libxkbcommon-dev,
  libvulkan-dev,
  vulkan-headers,
+ glslang-dev,
+ glslang-tools,
  meson (>= 0.58.1),
  pkg-config,
  wayland-protocols (>= 1.27),
