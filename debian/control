@@ -32,6 +32,7 @@ Build-Depends:
  libx11-xcb-dev,
  libxkbcommon-dev,
  libvulkan-dev,
+ vulkan-headers | libvulkan-dev,
  meson (>= 0.58.1),
  pkg-config,
  wayland-protocols (>= 1.27),
